@@ -11,7 +11,7 @@ class miXML
     public function __construct(string $nombreArchivo)
     {
         //Inicializar el nombre del archivo
-        $this->$xml_nombre_archivo = $nombreArchivo;
+        $this->xml_nombre_archivo = $nombreArchivo;
         //Crear el documento DOM
         $this->dom = new DOMDocument('1.0', 'UTF-8');
         //Comprobar la creación que la salida del documento DOM sea válida
